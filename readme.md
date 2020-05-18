@@ -32,7 +32,7 @@ ld helloworld.o  -o helloworld
 gdb helloworld
 (gdb) b 1 # set breakpount on line 1 or in this case start address 
 (gdb) layout asm # see asm instructions
-(gdb) layout regs # see asm instructions
+(gdb) layout regs # see registers
 (gdb) run # run program
 (gdb) si # step into
 (gdb) info registers edx # print value of register
